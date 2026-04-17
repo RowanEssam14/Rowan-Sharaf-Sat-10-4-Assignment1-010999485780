@@ -6,14 +6,14 @@
     <title>Assignment 1</title>
   </head>
   <body style="margin: 120px">
-    <h1>John Doe Portfolio</h1>
-    <h2>Professional Web Developer</h2>
+    <h1 style="text-align: center; margin-bottom: 12px">John Doe Portfolio</h1>
+    <h2 style="text-align: center; font-size: 16px; color: #1c6ea4">Professional Web Developer</h2>
     <section class="about">
       <h3>About Me</h3>
       <table width="100%">
         <tr>
           <td>
-            <img src="profile.png" alt="John Doe Profile Image" width="200" height="200" />
+            <img src="assets/pictures/profile.png" alt="John Doe Profile Image" width="200" height="200" />
           </td>
 
           <td>
@@ -30,13 +30,37 @@
         </tr>
         <tr>
           <td>
-            <img src="" alt="facebook icon" width="30" height="30" />
-            <img src="" alt="linkedin icon" width="30" height="30" />
-            <img src="" alt="instagram icon" width="30" height="30" />
-            <img src="" alt="x icon" width="30" height="30" />
+            <img
+              src="assets/pictures/facebook-icon.png"
+              alt="facebook icon"
+              width="30"
+              height="30"
+              style="display: inline"
+            />
+            <img
+              src="assets/pictures/linkedin-icon.png"
+              alt="linkedin icon"
+              width="30"
+              height="30"
+              style="display: inline"
+            />
+            <img
+              src="assets/pictures/instagram-icon.png"
+              alt="instagram icon"
+              width="30"
+              height="30"
+              style="display: inline"
+            />
+            <img
+              src="assets/pictures/github-icon.png"
+              alt="github icon"
+              width="30"
+              height="30"
+              style="display: inline"
+            />
           </td>
           <td>
-            <h4>Skills</h4>
+            <h4 style="background-color: #def0fc">Skills</h4>
             <ul>
               <li><a href="#">HTML5</a></li>
               <li><a href="#">CSS3</a></li>
@@ -50,11 +74,11 @@
     </section>
 
     <section class="experience">
-      <h3>Experience Timeline</h3>
-      <h4>Professional Experience Overview</h4>
+      <h3 style="color: #1c6ea4">Experience Timeline</h3>
+      <h4 style="text-align: center">Professional Experience Overview</h4>
 
-      <table border="1" width="100%">
-        <thead>
+      <table border="1" width="100%" style="border-collapse: collapse">
+        <thead style="background-color: #1c6ea4; color: white">
           <tr>
             <th>Company</th>
             <th>Logo</th>
@@ -66,7 +90,14 @@
         <tbody>
           <tr>
             <td rowspan="2">TechCorp Solutions</td>
-            <td rowspan="2"><img src="" alt="TechCorp Logo" /></td>
+            <td rowspan="2">
+              <img
+                src="assets/pictures/TechCorps-Solutions-Logo.png"
+                alt="TechCorp Logo"
+                width="25%"
+                style="display: block; margin: auto; border-radius: 50%"
+              />
+            </td>
             <td>senior web developer</td>
             <td>
               <ul>
@@ -90,7 +121,14 @@
           </tr>
           <tr>
             <td>Digital Agency Pro</td>
-            <td><img src="" alt="Digital Agency Pro Logo" /></td>
+            <td>
+              <img
+                src="assets/pictures/Digital-Agency-Pro.png"
+                alt="Digital Agency Pro Logo"
+                width="25%"
+                style="display: block; margin: auto"
+              />
+            </td>
             <td>Frontend Developer</td>
             <td>
               <ul>
@@ -103,7 +141,14 @@
           </tr>
           <tr>
             <td>Web Design Studio</td>
-            <td><img src="" alt="Web Design Studio Logo" /></td>
+            <td>
+              <img
+                src="assets/pictures/Web-Design-Studio.png"
+                alt="Web Design Studio Logo"
+                width="25%"
+                style="display: block; margin: auto"
+              />
+            </td>
             <td>Junior Web Developer</td>
             <td>
               <ul>
@@ -124,7 +169,7 @@
     </section>
 
     <section class="contact">
-      <h3>Contact Me</h3>
+      <h3 style="color: #1c6ea4">Contact Me</h3>
       <p>Feel free to reach out to me using the form below. I'd love to hear from you!</p>
 
       <form action="">
@@ -164,7 +209,7 @@
             </tr>
           </table>
         </fieldset>
-        <fieldset>
+        <fieldset style="margin: 20px 0">
           <legend>Project Details</legend>
           <table>
             <tr>
@@ -223,8 +268,8 @@
             </tr>
           </table>
         </fieldset>
-        <button type="submit">Send Message</button>
-        <button type="reset">Clear Form</button>
+        <button type="submit" style="color: white; background-color: blue">Send Message</button>
+        <button type="reset" style="color: white; background-color: red">Clear Form</button>
       </form>
     </section>
   </body>
