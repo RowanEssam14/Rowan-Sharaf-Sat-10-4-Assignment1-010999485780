@@ -11,73 +11,75 @@
     <section class="about">
       <h3>About Me</h3>
       <table width="100%">
-        <tr>
-          <td>
-            <img src="assets/pictures/profile.png" alt="John Doe Profile Image" width="200" height="200" />
-          </td>
-
-          <td>
-            <p>
-              Hello! I'm John Doe, a passionate web developer with 5 years of experience in creating innovative digital
-              solutions. I specialize in full-stack development and have a keen interest in modern web technologies.
-            </p>
-            <p>
-              My journey in web development started during my college years, and since then I've been continuously
-              learning and adapting to new technologies. I believe in writing clean, efficient code and creating
-              user-friendly interfaces.
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="assets/pictures/facebook-icon.png"
-              alt="facebook icon"
-              width="30"
-              height="30"
-              style="display: inline"
-            />
-            <img
-              src="assets/pictures/linkedin-icon.png"
-              alt="linkedin icon"
-              width="30"
-              height="30"
-              style="display: inline"
-            />
-            <img
-              src="assets/pictures/instagram-icon.png"
-              alt="instagram icon"
-              width="30"
-              height="30"
-              style="display: inline"
-            />
-            <img
-              src="assets/pictures/github-icon.png"
-              alt="github icon"
-              width="30"
-              height="30"
-              style="display: inline"
-            />
-          </td>
-          <td>
-            <h4 style="background-color: #def0fc">Skills</h4>
-            <ul>
-              <li><a href="#">HTML5</a></li>
-              <li><a href="#">CSS3</a></li>
-              <li><a href="#">JavaScript</a></li>
-              <li><a href="#">React js</a></li>
-              <li><a href="#">Angular</a></li>
-            </ul>
-          </td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>
+              <img src="assets/pictures/profile.png" alt="John Doe Profile Image" width="200" height="200" />
+            </td>
+            <td>
+              <p>
+                Hello! I'm John Doe, a passionate web developer with 5 years of experience in creating innovative
+                digital solutions. I specialize in full-stack development and have a keen interest in modern web
+                technologies.
+              </p>
+              <p>
+                My journey in web development started during my college years, and since then I've been continuously
+                learning and adapting to new technologies. I believe in writing clean, efficient code and creating
+                user-friendly interfaces.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="assets/pictures/facebook-icon.png"
+                alt="facebook icon"
+                width="30"
+                height="30"
+                style="display: inline"
+              />
+              <img
+                src="assets/pictures/linkedin-icon.png"
+                alt="linkedin icon"
+                width="30"
+                height="30"
+                style="display: inline"
+              />
+              <img
+                src="assets/pictures/instagram-icon.png"
+                alt="instagram icon"
+                width="30"
+                height="30"
+                style="display: inline"
+              />
+              <img
+                src="assets/pictures/github-icon.png"
+                alt="github icon"
+                width="30"
+                height="30"
+                style="display: inline"
+              />
+            </td>
+            <td>
+              <h3 style="background-color: #def0fc">Skills</h3>
+              <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">React js</a></li>
+                <li><a href="#">Angular</a></li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
     <section class="experience">
       <h3 style="color: #1c6ea4">Experience Timeline</h3>
-      <h4 style="text-align: center">Professional Experience Overview</h4>
 
       <table border="1" width="100%" style="border-collapse: collapse">
+        <caption style="text-align: center">Professional Experience Overview</caption>
         <thead style="background-color: #1c6ea4; color: white">
           <tr>
             <th>Company</th>
@@ -175,97 +177,93 @@
       <form action="">
         <fieldset>
           <legend>Personal Information</legend>
-          <table>
-            <tr>
-              <td>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" />
-              </td>
-              <td>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" />
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" />
-              </td>
-              <td>
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="meeting-date">Preferred Meeting Date:</label>
-                <input type="date" name="meeting-date" id="meeting-date" />
-              </td>
-              <td>
-                <label for="contact-time">Best Time to Contact:</label>
-                <input type="time" name="contact-time" id="contact-time" />
-              </td>
-            </tr>
+          <table width="100%">
+            <tbody>
+              <tr>
+                <td>
+                  <label for="fname">First Name:</label>
+                  <input type="text" id="fname" name="fname" />
+                </td>
+                <td>
+                  <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lname" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email Address:</label>
+                  <input type="email" id="email" name="email" />
+                </td>
+                <td>
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="meeting-date">Preferred Meeting Date:</label>
+                  <input type="date" name="meeting-date" id="meeting-date" />
+                </td>
+                <td>
+                  <label for="contact-time">Best Time to Contact:</label>
+                  <input type="time" name="contact-time" id="contact-time" />
+                </td>
+              </tr>
+            </tbody>
           </table>
         </fieldset>
         <fieldset style="margin: 20px 0">
           <legend>Project Details</legend>
-          <table>
-            <tr>
-              <td>
-                <label for="project-type">Project Type:</label>
-                <input type="text" name="project-type" id="project-type" />
-              </td>
-              <td>
-                <label for="project-description">Project Description:</label>
-                <textarea name="project-description" id="project-description" rows="2" cols="25"></textarea>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Budget Range:</p>
-                <input type="radio" name="budget" id="budget1" value="under_$5,000" />
-                <label for="budget1">Under $5,000</label>
-
-                <input type="radio" name="budget" id="budget2" value="$5000-$10000" />
-                <label for="budget2">$5,000 - $10,000</label>
-
-                <input type="radio" name="budget" id="budget3" value="$10000-$25000" />
-                <label for="budget3">$10,000 - $25,000</label>
-
-                <input type="radio" name="budget" id="budget4" value="over_$25000" />
-                <label for="budget4">Over $25,000</label>
-              </td>
-              <td>
-                <p>Services Required (Check all that apply):</p>
-                <input type="checkbox" name="services" id="service1" value="ui_ux_design" />
-                <label for="service1">UI/UX Design</label>
-
-                <input type="checkbox" name="services" id="service2" value="frontend_development" />
-                <label for="service2">Frontend Development</label>
-
-                <input type="checkbox" name="services" id="service3" value="backend_development" />
-                <label for="service3">Backend Development</label>
-
-                <input type="checkbox" name="services" id="service4" value="hosting_deployment" />
-                <label for="service4">Hosting & Deployment</label>
-
-                <input type="checkbox" name="services" id="service5" value="maintenance_support" />
-                <label for="service5">Maintenance & Support</label>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <label for="referral">How did you hear about me?</label>
-                <select name="referral" id="referral">
-                  <option value="">--select source</option>
-                  <option value="friend">Friend</option>
-                  <option value="social_media">Social Media</option>
-                  <option value="search_engine">Search Engine</option>
-                </select>
-              </td>
-            </tr>
+          <table width="100%">
+            <tbody>
+              <tr>
+                <td>
+                  <label for="project-type">Project Type:</label>
+                  <input type="text" name="project-type" id="project-type" />
+                </td>
+                <td>
+                  <label for="project-description">Project Description:</label>
+                  <textarea name="project-description" id="project-description" rows="2" cols="25"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Budget Range:</p>
+                  <input type="radio" name="budget" id="budget1" value="under_$5,000" />
+                  <label for="budget1">Under $5,000</label>
+                  <input type="radio" name="budget" id="budget2" value="$5000-$10000" />
+                  <label for="budget2">$5,000 - $10,000</label>
+                  <input type="radio" name="budget" id="budget3" value="$10000-$25000" />
+                  <label for="budget3">$10,000 - $25,000</label>
+                  <input type="radio" name="budget" id="budget4" value="over_$25000" />
+                  <label for="budget4">Over $25,000</label>
+                </td>
+                <td>
+                  <p>Services Required (Check all that apply):</p>
+                  <input type="checkbox" name="services" id="service1" value="ui_ux_design" />
+                  <label for="service1">UI/UX Design</label>
+                  <input type="checkbox" name="services" id="service2" value="frontend_development" />
+                  <label for="service2">Frontend Development</label>
+                  <input type="checkbox" name="services" id="service3" value="backend_development" />
+                  <label for="service3">Backend Development</label>
+                  <input type="checkbox" name="services" id="service4" value="hosting_deployment" />
+                  <label for="service4">Hosting & Deployment</label>
+                  <input type="checkbox" name="services" id="service5" value="maintenance_support" />
+                  <label for="service5">Maintenance & Support</label>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <label for="referral">How did you hear about me?</label>
+                  <select name="referral" id="referral">
+                    <option value="">--select source</option>
+                    <option value="friend">Friend</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="search_engine">Search Engine</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </fieldset>
         <button type="submit" style="color: white; background-color: blue">Send Message</button>
